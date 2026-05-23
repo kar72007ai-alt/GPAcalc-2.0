@@ -1,0 +1,75 @@
+{
+  "name": "GPAcalc 2.0",
+  "short_name": "GPAcalc",
+  "id": "/gpacalc/",
+  "description": "Smart GPA calculator for university students. Compute semester GPA, track semester history, analyse progress, and calculate cumulative GPA. Supports English and Arabic.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#f4f3ee",
+  "theme_color": "#1a1917",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "utilities", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-1.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "label": "GPAcalc — Semester Calculator",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "screenshot-2.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "label": "GPAcalc — History & Analysis",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Calculation",
+      "short_name": "Calculate",
+      "description": "Jump to the GPA calculator",
+      "url": "./index.html?tab=calc",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "View History",
+      "short_name": "History",
+      "description": "See your saved semesters",
+      "url": "./index.html?tab=history",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
